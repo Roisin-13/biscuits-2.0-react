@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #F7F2EB;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ .App-header {
+  background-color: #F7F2EB;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: #56b3ae;
+} 
+
+.page {
+  display: flex;
+  background-color: white;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #560025;
+}
+
+.App-link {
+  color: #560025;
+}

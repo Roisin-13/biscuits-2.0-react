@@ -1,0 +1,44 @@
+.Recipe-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 16.66rem;
+  margin: 2.3rem .5rem 2.3rem .5rem; 
+}
+
+.Recipe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.66rem;
+    margin: 2.3rem .5rem 2.3rem .5rem; 
+  }
+  
+  .Recipe .image-container {
+    height: 16.66rem;
+    width: 16.66rem;
+    margin-bottom: 1rem;
+  }
+
+  .Recipe img {
+    height: 16.66rem;
+    width: 16.66rem;
+    object-fit: cover;
+    margin-bottom: 1rem;
+  }
+  
+  .Recipe h2 {
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #56b3ae;
+  }
+
+  .Recipe .recipe-link, .recipe-link :visited {
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #56b3ae;
+  }
+  
+  
